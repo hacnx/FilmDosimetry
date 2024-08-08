@@ -9,7 +9,7 @@ You can then use the *DoseMeasurementScript* with your new calibration by assign
 ## Dose Measurement
 
 This part consists of two cells: 
-- The first on is here to test and customize the zone of interest position in wich you want to measure the dose, typically on Hg.
+- The first one is here to test and customize the zone of interest position in wich you want to measure the dose, typically on Hg.
   
 - The second one is basically the same code but with a loop to go through the whole batch, with the defined zoi. You can also choose to have an "automatic" zoi, targetting the center of mass for each film.  
 
