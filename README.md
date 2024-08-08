@@ -9,8 +9,8 @@ You can then use the *DoseMeasurementScript* with your new calibration by assign
 ## Dose Measurement
 
 This part consists of two cells: 
-- The first one is here to test and customize the zone of interest position in wich you want to measure the dose, typically on Hg.
+- The first one is here to test and customize the square's position in wich you want to measure the dose, typically on Hg.
   
-- The second one is basically the same code but with a loop to go through the whole batch, with the defined zoi. You can also choose to have an "automatic" zoi, targetting the center of mass for each film.  
+- The second one is basically the same code but with a loop to go through the whole batch, with the defined square. You can also choose to have an "automatic" square positioning, targetting the center of mass for each film.  
 
 Results are stored in a txt file inside /DoseResults that you name inside the "result_path" variable at the beginning of the second cell.
